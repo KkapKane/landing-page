@@ -1,0 +1,58 @@
+.top {
+    font-family: Roboto, sans-serif;
+    display: flex;
+    justify-content: space-between;
+    background-color: #064747;
+    margin:0;
+    padding-left: 100px;
+    padding-bottom: 100px;
+    
+}
+body {
+    margin:0;
+}
+
+ul {
+    list-style: none;
+    color: white;
+    font-size: 20px;
+    gap:24px;
+    display: flex;
+}
+
+.Awesome {
+    padding-left: 300px;
+    padding-bottom: 100px;
+    font-size: 48px;
+    color: white;
+    
+    background-color: #064747;
+}
+ header {
+    font-family: Hero,Roboto, sans-serif;
+    font-size: 30px;
+    color: white;
+ }
+
+ p {
+    inline-size: 600px;
+    font-size: 18px;
+    color: white;
+    background-color: #064747;
+    
+ }
+
+ button {
+    
+font-family: Google Sans, Roboto;
+background-color: #1a73e8;
+color: white;
+font-weight: 500;
+font-size: 24px;
+letter-spacing: 0.25px;
+border-radius: 6px;
+box-sizing: border-box;
+line-height: 32px;
+text-align: center;
+vertical-align: center;
+ }
