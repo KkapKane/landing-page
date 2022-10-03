@@ -6,6 +6,7 @@
     margin:0;
     padding-left: 100px;
     padding-bottom: 100px;
+    padding-right: 100px;
     
 }
 body {
@@ -20,17 +21,42 @@ ul {
     display: flex;
 }
 
-.Awesome {
+.hero {
+    background-color: #1F2937;
+    display: flex;
     
+    padding: 24px;
+    
+}
 
-    padding-left: 300px;
-    padding-bottom: 10px;
+.hero-title {
+    inline-size: 400px;
     font-size: 48px;
     font-weight: bolder;
     color: #F9FAF8;
     
-    background-color: #1F2937;
 }
+
+.hero-text {
+    inline-size: 400px;
+    font-size: 16px;
+    color: #E5E7EB;
+}
+
+.hero-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    padding: 0% 15% 10%;
+}
+
+.hero img {
+    width: 600px;
+    height: auto;
+    border-radius: 15px;
+}
+
  header {
     font-family: Hero,Roboto, sans-serif;
     font-size: 32px;
@@ -40,13 +66,6 @@ ul {
     padding-top: 10px;
  }
 
- p {
-    inline-size: 600px;
-    font-size: 18px;
-    color: white;
-    background-color: #1F2937;
-    
- }
 
  button {
     
@@ -54,14 +73,16 @@ font-family: Google Sans, Roboto;
 background-color: #1a73e8;
 color: white;
 font-weight: 500;
-font-size: 24px;
+font-size: 16px;
 letter-spacing: 0.25px;
 border-radius: 6px;
 box-sizing: border-box;
-line-height: 32px;
+line-height: 22px;
 text-align: center;
 vertical-align: center;
 border:none;
+display: flex;
+padding: 0% 10 10%;
  }
 
 .imagebox img {
@@ -99,6 +120,8 @@ border:none;
 
 
 .text {
+    color:#1F2937;
+    font-size: 24px;
     text-align: center;
     inline-size: 200px;
 }
@@ -140,13 +163,19 @@ border:none;
 }
 
 .ActionBox {
-    
+    display: flex;
+    flex-shrink: 0;
     text-align: left;
     background-color: #1a73e8;
     color:#F9FAF8;
     font-family: Roboto, sans-serif;
-    padding: 30px 400px;
+    padding-left: 0x;
+    padding-right: 150px;
+    padding-top:50px;
+    padding-bottom: 50px;
     border-radius: 6px;
+    justify-content: space-around;
+    gap: 100px;
 }
 .callactiontext {
     font-weight: bold;
@@ -159,4 +188,44 @@ border:none;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.footerclass {
+    font-size: 24px;
+    color:#E5E7EB;
+    display: flex;
+    background-color: #1F2937;
+    justify-content: center;
+    align-items: center;
+    padding: 0% 10% 1%;
+}
+.leftaction {
+    display: flex;
+    flex-direction: column;
+    padding-left: 100px;
+}
+
+.rightaction {
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+}
+
+.signupbutton2 {
+    font-family: Google Sans, Roboto;
+background-color: #1a73e8;
+color: white;
+
+font-weight: 500;
+font-size: 16px;
+letter-spacing: 0.25px;
+border-radius: 6px;
+box-sizing: border-box;
+line-height: 22px;
+text-align: center;
+vertical-align: center;
+border:none;
+display: flex;
+padding: 0% 10 10%;
+border: 2px solid #F9FAF8
 }
